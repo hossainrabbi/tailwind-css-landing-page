@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container__main {
+    @apply container mx-auto px-3;
+  }
+
+  .rounded__btn {
+    @apply bg-sky-500 hover:bg-sky-600 transition-colors text-white text-xs rounded-3xl px-5 py-2.5;
+  }
+}
