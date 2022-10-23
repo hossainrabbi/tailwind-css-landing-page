@@ -12,6 +12,6 @@
   }
 
   .card__hover__bg {
-    @apply px-6 py-8 text-center bg-gray-50 shadow rounded-xl transition-colors relative hover:bg-white hover:before:absolute hover:before:bg-sky-500 before:-skew-y-2 before:inset-1 before:z-[-1] before:-right-3 before:-bottom-3 before:rounded-xl;
+    @apply px-6 py-8 text-center bg-gray-50 shadow rounded-xl transition-all relative hover:bg-white hover:before:absolute hover:before:bg-sky-500 before:-skew-y-2 before:inset-1 before:z-[-1] before:-right-3 before:-bottom-3 before:rounded-xl;
   }
 }
