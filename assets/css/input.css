@@ -8,11 +8,15 @@
   }
 
   .rounded__btn {
-    @apply bg-sky-500 hover:bg-sky-600 transition-colors text-white text-sm rounded-3xl px-5 py-2.5;
+    @apply bg-sky-500 hover:bg-sky-600 transition-colors text-white text-sm px-5 py-2.5;
   }
 
   .card__hover__bg {
     @apply px-6 py-8 text-center bg-gray-50 shadow rounded-xl transition-all relative hover:bg-white hover:before:absolute hover:before:bg-sky-500 before:-skew-y-2 before:inset-1 before:z-[-1] before:-right-3 before:-bottom-3 before:rounded-xl;
+  }
+
+  .input__field {
+    @apply px-4 py-3 w-full border border-gray-400 outline-none focus-visible:border-gray-600;
   }
 }
 
