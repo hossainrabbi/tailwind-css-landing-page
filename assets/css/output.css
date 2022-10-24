@@ -865,32 +865,16 @@ video {
   margin-top: 0.25rem;
 }
 
-.mb-80 {
-  margin-bottom: 20rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.-mt-3 {
-  margin-top: -0.75rem;
+.-mb-16 {
+  margin-bottom: -4rem;
 }
 
 .-mt-4 {
   margin-top: -1rem;
 }
 
-.-mb-5 {
-  margin-bottom: -1.25rem;
-}
-
-.-mb-24 {
-  margin-bottom: -6rem;
-}
-
-.-mb-16 {
-  margin-bottom: -4rem;
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .box-border {
@@ -1843,20 +1827,12 @@ video {
   border-bottom-left-radius: 0.25rem;
 }
 
-.border-4 {
-  border-width: 4px;
+.border-\[6px\] {
+  border-width: 6px;
 }
 
 .border {
   border-width: 1px;
-}
-
-.border-8 {
-  border-width: 8px;
-}
-
-.border-\[6px\] {
-  border-width: 6px;
 }
 
 .border-x {
@@ -2304,20 +2280,8 @@ video {
   -moz-osx-font-smoothing: auto;
 }
 
-.opacity-50 {
-  opacity: 0.5;
-}
-
-.opacity-75 {
-  opacity: 0.75;
-}
-
 .opacity-90 {
   opacity: 0.9;
-}
-
-.opacity-80 {
-  opacity: 0.8;
 }
 
 .bg-blend-normal {
@@ -2578,12 +2542,22 @@ video {
   transition-duration: 150ms;
 }
 
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
 }
 
 .ease-in {
@@ -2603,9 +2577,18 @@ video {
   content: var(--tw-content);
 }
 
-.hover\:bg-white:hover {
+.service__card:hover img {
+  transform: scale(1.2);
+}
+
+.service__card:hover .service__icon {
+  border-width: 3px;
+  --tw-border-opacity: 1;
+  border-color: rgb(14 165 233 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(14 165 233 / var(--tw-text-opacity));
 }
 
 .hover\:font-bold:hover {

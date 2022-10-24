@@ -15,3 +15,11 @@
     @apply px-6 py-8 text-center bg-gray-50 shadow rounded-xl transition-all relative hover:bg-white hover:before:absolute hover:before:bg-sky-500 before:-skew-y-2 before:inset-1 before:z-[-1] before:-right-3 before:-bottom-3 before:rounded-xl;
   }
 }
+
+.service__card:hover img {
+  transform: scale(1.2);
+}
+
+.service__card:hover .service__icon {
+  @apply bg-white border-sky-500 text-sky-500  border-[3px];
+}
